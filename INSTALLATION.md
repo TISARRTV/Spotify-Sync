@@ -45,7 +45,7 @@ pip install -r requirements.txt
 #### Récupérer les clés
 1. Cliquez sur votre app dans le dashboard
 2. Notez le **Client ID**
-3. Cliquez sur **"Show Client Secret"** → notez le **Client Secret**
+3. Cliquez sur **"View Client Secret"** → notez le **Client Secret**
 
 ### 3. Configuration locale
 
