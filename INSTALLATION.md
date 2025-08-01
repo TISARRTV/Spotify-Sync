@@ -24,9 +24,9 @@ pip install -r requirements.txt
 3. Cliquez sur **"Create App"**
 
 #### Configuration de l'application
-- **App name** : `Spotify Transfer`
+- **App name** : `Spotify Sync`
 - **App description** : `Application de synchronisation entre comptes Spotify`
-- **Website** : `http://localhost`
+- **Website** : ``
 - **Redirect URIs** : **IMPORTANT**
   ```
   http://127.0.0.1:8888/callback
