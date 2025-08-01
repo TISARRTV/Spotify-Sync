@@ -26,7 +26,7 @@ pip install -r requirements.txt
 #### Configuration de l'application
 - **App name** : `Spotify Sync`
 - **App description** : `Application de synchronisation entre comptes Spotify`
-- **Website** : ``
+- **Website** : `Vous pouvez laisser vide`
 - **Redirect URIs** : **IMPORTANT**
   ```
   http://127.0.0.1:8888/callback
