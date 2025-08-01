@@ -1,0 +1,27 @@
+{
+    "sync_settings": {
+        "sync_liked_songs": true,
+        "sync_playlists": false,
+        "max_tracks_per_sync": 100,
+        "sync_interval_minutes": 30
+    },
+    "playlist_settings": {
+        "excluded_playlists": [
+            "Discover Weekly",
+            "Release Radar",
+            "Daily Mix"
+        ],
+        "create_copy_suffix": " (Copy)",
+        "preserve_playlist_order": true,
+        "sync_collaborative_playlists": false
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "spotify_sync.log",
+        "console_output": true
+    },
+    "authentication": {
+        "token_refresh_threshold_minutes": 30,
+        "auto_refresh_tokens": true
+    }
+}

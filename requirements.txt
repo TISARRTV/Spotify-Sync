@@ -1,0 +1,7 @@
+spotipy==2.23.0
+python-dotenv==1.0.0
+requests==2.31.0
+schedule==1.2.0
+colorama==0.4.6
+click==8.1.7
+tzdata>=2023.3
