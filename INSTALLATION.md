@@ -34,6 +34,14 @@ pip install -r requirements.txt
   ```
 - **APIs utilisées** : Spotify Web API
 
+#### Ajouter le second compte dans User Management
+1. Dans votre app Spotify Developer Dashboard
+2. Cliquez sur l'onglet **"User Management"**
+3. **Ajoutez l'email du second compte Spotify** (le compte de destination)
+4. Cliquez sur **"Add User"**
+
+> ⚠️ **Important** : Cette étape est obligatoire pour que le second compte puisse s'authentifier avec votre application.
+
 #### Récupérer les clés
 1. Cliquez sur votre app dans le dashboard
 2. Notez le **Client ID**
