@@ -1,7 +1,7 @@
 {
     "sync_settings": {
         "sync_liked_songs": true,
-        "sync_playlists": false,
+        "sync_playlists": true,
         "max_tracks_per_sync": 100,
         "sync_interval_minutes": 30
     },
@@ -11,7 +11,7 @@
             "Release Radar",
             "Daily Mix"
         ],
-        "create_copy_suffix": " (Copy)",
+        "create_copy_suffix": "",
         "preserve_playlist_order": true,
         "sync_collaborative_playlists": false
     },
