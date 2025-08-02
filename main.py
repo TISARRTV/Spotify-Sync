@@ -68,7 +68,7 @@ def print_sync_summary(sync_manager: SpotifySyncManager, success: bool, duration
 
 @click.command()
 @click.option('--watch', is_flag=True, help='Mode surveillance continue')
-@click.option('--interval', default=None, help='Intervalle de synchronisation en minutes (mode surveillance)')
+@click.option('--interval', type=int, default=None, help='Intervalle de synchronisation en minutes (mode surveillance)')
 @click.option('--config', default='config.json', help='Chemin vers le fichier de configuration')
 @click.option('--dry-run', is_flag=True, help='Simulation sans modifications réelles')
 def main(watch, interval, config, dry_run):
@@ -91,6 +91,16 @@ def main(watch, interval, config, dry_run):
     # Utiliser l'intervalle de la config si pas spécifié en ligne de commande
     if interval is None:
         interval = default_interval
+    
+    # S'assurer que l'intervalle est un entier positif
+    try:
+        interval = int(interval)
+        if interval < 1:
+            print(f"{Fore.RED}❌ Erreur: L'intervalle doit être un nombre entier positif{Style.RESET_ALL}")
+            return
+    except (ValueError, TypeError):
+        print(f"{Fore.RED}❌ Erreur: L'intervalle doit être un nombre entier{Style.RESET_ALL}")
+        return
     
     print_banner()
     
