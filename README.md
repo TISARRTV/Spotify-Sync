@@ -62,6 +62,7 @@ python main.py
 | `check_order.py` | Vérifie l'ordre chronologique des likes | `python check_order.py` |
 | `test_config.py` | Teste configuration et authentification | `python test_config.py` |
 | `demo.py` | Démonstrations interactives | `python demo.py` |
+| `cleanup.py` | **⚠️ Nettoie complètement un compte** | `python cleanup.py` |
 
 ### Commandes principales
 ```bash
@@ -79,6 +80,9 @@ python main.py setup
 
 # Vérifier l'ordre chronologique
 python check_order.py
+
+# Nettoyer complètement un compte (⚠️ DESTRUCTIF)
+python cleanup.py
 
 # Voir toutes les options
 python main.py --help

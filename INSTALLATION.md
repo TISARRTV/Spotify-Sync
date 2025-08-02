@@ -227,6 +227,7 @@ python test_config.py    # Test configuration complète
 python check_order.py    # Vérification ordre chronologique  
 python demo.py           # Démonstrations interactives
 python main.py status    # État de la configuration
+python cleanup.py        # ⚠️ Nettoyage complet d'un compte (DESTRUCTIF)
 ```
 
 ### Messages d'erreur courants
@@ -234,5 +235,34 @@ python main.py status    # État de la configuration
 - **Erreur réseau** → Vérifiez votre connexion internet
 - **API rate limit** → L'app attend automatiquement et réessaie
 - **Playlist non trouvée** → Vérifiez les exclusions dans `config.json`
+
+## 🧹 Nettoyage d'un compte
+
+### Script de nettoyage
+Le script `cleanup.py` permet de remettre à zéro complètement un compte Spotify :
+
+```bash
+# Nettoyer complètement un compte (⚠️ DESTRUCTIF)
+python cleanup.py
+```
+
+**⚠️ ATTENTION** : Ce script est **DESTRUCTIF** et **IRRÉVERSIBLE** !
+
+### Options de nettoyage
+1. **Supprimer uniquement les playlists** - Supprime toutes vos playlists
+2. **Unlike uniquement les chansons** - Unlike tous vos titres likés  
+3. **Nettoyage complet** - Supprime playlists ET unlike tous les titres
+4. **Annuler** - Annule l'opération
+
+### Cas d'usage
+- **Recommencer une synchronisation** depuis zéro
+- **Nettoyer un compte de test** après des expérimentations
+- **Corriger des erreurs** de synchronisation précédentes
+
+### Sécurités intégrées
+- **Double confirmation** obligatoire avant exécution
+- **Affichage du compte** concerné pour éviter les erreurs
+- **Progression détaillée** avec compteurs
+- **Gestion d'erreurs** robuste
 
 L'application est conçue pour être robuste et gérer automatiquement la plupart des erreurs courantes.
