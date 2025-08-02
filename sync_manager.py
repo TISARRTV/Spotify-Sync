@@ -241,7 +241,7 @@ class SpotifySyncManager:
                 name=new_name,
                 public=source_playlist['public'],
                 collaborative=False,  # Les copies ne sont pas collaboratives
-                description=f"Copie automatique de: {source_playlist['name']} avec Spotify Sync"
+                description=f"Spotify Sync - Copie automatique de: {source_playlist['name']}"
             )
             
             return new_playlist['id']
