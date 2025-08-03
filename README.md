@@ -1,6 +1,6 @@
 # Spotify Sync - Synchronisation de comptes Spotify
 
-Application qui synchronise automatiquement les chansons likées et playlists entre le compte source et destination,en préservant l'ordre chronologique exact.
+Application qui synchronise automatiquement les chansons likées et playlists entre le compte source et destination, en préservant l'ordre chronologique exact.
 
 ## 🎯 Fonctionnalités principales
 
