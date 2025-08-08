@@ -33,6 +33,7 @@ pip install -r requirements.txt
   http://127.0.0.1:8889/callback
   ```
 - **APIs utilisées** : Spotify Web API
+- **Cochez bien la case et appuyez sur save**
 
 #### Ajouter le second compte dans User Management
 1. Dans votre app Spotify Developer Dashboard
