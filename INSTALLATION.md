@@ -45,7 +45,7 @@ pip install -r requirements.txt
 > ⚠️ **Important** : Cette étape est obligatoire pour que le second compte puisse s'authentifier avec votre application.
 
 #### Récupérer les clés
-1. Cliquez sur votre app dans le dashboard
+1. Revenez dans l'onglet **Basic Information**
 2. Notez le **Client ID**
 3. Cliquez sur **"View Client Secret"** → notez le **Client Secret**
 
