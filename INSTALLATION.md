@@ -92,8 +92,8 @@ Lors du premier lancement :
 1. **Navigateur s'ouvre automatiquement** pour le compte source
 2. **Connectez-vous avec le compte qui CONTIENT vos musiques**
 3. **Autorisez l'application** 
-4. **Deuxième navigateur** s'ouvre pour le compte destination
-5. **IMPORTANT** : Déconnectez-vous de Spotify dans le navigateur
+4. **Deuxième page** s'ouvre pour le compte destination
+5. **IMPORTANT** : Cliquez sur ce n'est pas vous pour changer de compte
 6. **Connectez-vous avec le compte qui va RECEVOIR les musiques**
 7. **Autorisez l'application**
 
